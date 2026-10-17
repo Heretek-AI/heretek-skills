@@ -3,8 +3,6 @@
 
   "lsp": true,
   "formatter": true,
-  "shell": "/bin/bash",
-
   "skills": {
     "paths": [
       "~/.config/opencode/skills"
@@ -12,18 +10,6 @@
   },
 
   "mcp": {
-    "codebase-memory": {
-      "type": "local",
-      "command": ["codebase-memory-mcp"],
-      "enabled": true,
-      "timeout": 10000
-    },
-    "semgrep": {
-      "type": "local",
-      "command": ["semgrep", "mcp", "--transport", "stdio"],
-      "enabled": true,
-      "timeout": 15000
-    },
     "context7": {
       "type": "local",
       "command": ["npx", "-y", "@upstash/context7-mcp"],
@@ -33,7 +19,6 @@
   },
 
   "plugins": [
-    "opencode-mem",
     "@prevalentware/opencode-goal-plugin"
   ],
 
