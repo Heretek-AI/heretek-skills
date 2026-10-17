@@ -3,11 +3,6 @@
 
   "lsp": true,
   "formatter": true,
-  "skills": {
-    "paths": [
-      "~/.config/opencode/skills"
-    ]
-  },
 
   "mcp": {
     "context7": {
